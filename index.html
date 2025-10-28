@@ -13,14 +13,12 @@
   <div id="root"></div>
   <script type="text/babel">
 const { useState } = React;
-
 function TVWalaOnePage() {
   const phone = "9811315460";
   const whatsappLink = `https://wa.me/91${phone}?text=${encodeURIComponent(
     "Hello Dilip Gupta - I need TV repair services. Please help with a visit slot."
   )}`;
   const gmbEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.173114287846!2d77.09332887546302!3d28.474639375745684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04f9c5f31ac3%3A0xbee23a4cefb4d8f!2sTVWala%20-%20LED%20TV%20Repair%20Service!5e0!3m2!1sen!2sin!4v1730043529993!5m2!1sen!2sin";
-
   return (
     <div className="min-h-screen bg-white text-gray-800 antialiased">
       {/* Header */}
@@ -39,7 +37,6 @@ function TVWalaOnePage() {
           </div>
         </div>
       </header>
-
       {/* Hero Section */}
       <main className="max-w-5xl mx-auto px-4 py-8">
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
@@ -57,14 +54,13 @@ function TVWalaOnePage() {
             </div>
           </div>
           <div className="space-y-4">
-            <img src="https://images.unsplash.com/photo-1581092334495-48bfa2ba0b4f?auto=format&fit=crop&w=1200&q=80" alt="Technician repairing TV" className="w-full rounded-lg shadow-md object-cover h-56 md:h-72" />
+            <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&h=600&fit=crop" alt="Technician repairing LED TV" className="w-full rounded-lg shadow-md object-cover h-56 md:h-72" />
             <div className="grid grid-cols-2 gap-3">
-              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80" alt="Happy customer" className="rounded-md shadow-sm h-28 object-cover" />
-              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Clean workspace" className="rounded-md shadow-sm h-28 object-cover" />
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop" alt="Happy customer" className="rounded-md shadow-sm h-28 object-cover" />
+              <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=400&h=300&fit=crop" alt="Clean workspace" className="rounded-md shadow-sm h-28 object-cover" />
             </div>
           </div>
         </section>
-
         {/* Services Section */}
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-blue-800">Our Services</h2>
@@ -85,7 +81,6 @@ function TVWalaOnePage() {
             ))}
           </div>
         </section>
-
         {/* Service Areas */}
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-blue-800">We Serve North West Delhi</h2>
@@ -95,7 +90,6 @@ function TVWalaOnePage() {
             ))}
           </div>
         </section>
-
         {/* Trust Badges */}
         <section className="mt-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -113,7 +107,6 @@ function TVWalaOnePage() {
             </div>
           </div>
         </section>
-
         {/* Google Map */}
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-blue-800 mb-4">Find Us</h2>
@@ -135,7 +128,6 @@ function TVWalaOnePage() {
             </a>
           </div>
         </section>
-
         {/* Testimonials */}
         <section className="mt-10">
           <h3 className="text-2xl font-bold text-blue-800">What Customers Say</h3>
@@ -152,7 +144,6 @@ function TVWalaOnePage() {
             ))}
           </div>
         </section>
-
         {/* Footer */}
         <footer className="mt-12 border-t pt-6 pb-10 text-sm text-gray-600">
           <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
@@ -164,7 +155,6 @@ function TVWalaOnePage() {
           </div>
         </footer>
       </main>
-
       {/* Mobile sticky buttons */}
       <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 sm:hidden w-[92%] z-50">
         <div className="flex items-center gap-3 bg-white p-3 rounded-xl shadow-lg">
@@ -175,7 +165,6 @@ function TVWalaOnePage() {
     </div>
   );
 }
-
 ReactDOM.render(<TVWalaOnePage />, document.getElementById('root'));
   </script>
 </body>
